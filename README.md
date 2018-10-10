@@ -4,7 +4,8 @@ The Accessibility Toolbar is a small front-end tool to help make a website more 
 * Grayscale
 * Link Highlighting
 * Contrast Change
-* Increased Text Size
+* Increased Text Size (This features uses CSS Zoom, which is not supported in Firefox)
+
 
 ## Installation
 
