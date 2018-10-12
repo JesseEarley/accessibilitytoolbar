@@ -20,7 +20,13 @@ function getCookie(key) {
 
 // This function will open/close the accessibility tools
 function toggleAccessibilityTools(){
-	$('#AccessibilityTools').slideToggle();
+	if (document.querySelector('#AccessibilityTools').style.display == 'none')
+	{
+		document.querySelector('#AccessibilityTools').style.display = 'block';
+	}
+	else{
+		document.querySelector('#AccessibilityTools').style.display = 'none'
+	}
 }
 
 /* This function is called on page load to see if settings need to be pulled from cookies. If they do, those classes are toggled. */
@@ -52,8 +58,9 @@ function checkAccessibiliy(){
 	}
 }
 
-
-$(function () {
+//Run once the DOM has loaded
+document.addEventListener('DOMContentLoaded', function(){ 
+ 
 	/* Need to check to see if we need to display the accessibility tool settings */
 	checkAccessibiliy();
  
@@ -113,4 +120,5 @@ $(function () {
 	document.querySelector('#AccessibilityToolsButtonClose').addEventListener('click',function(){
 		toggleAccessibilityTools();
 	});
-});
+
+}, false);
