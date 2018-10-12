@@ -1,4 +1,4 @@
-# Accessibility Toolbar - CSS Grid Brand
+# Accessibility Toolbar - CSS Grid Branch
 
 The Accessibility Toolbar is a small front-end tool to help make a website more accessible for users. It includes:
 * Grayscale
