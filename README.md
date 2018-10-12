@@ -16,6 +16,8 @@ The Accessibility Toolbar is a small front-end tool to help make a website more 
 
 Note: The Accessibility Toolbar as presented here requires Bootstrap for layout. The layout can easily be changed to a front-end framework of your choice or to CSS Grid. jQuery is used minimally and could also be removed entirely if desired. Font Awesome is used for iconography, but can also be removed if desired.
 
+For a non-Bootstrap and non-jQuery version, please see the CSS Grid Branch.
+
 ## Usage
 If using Bootstrap 3+, simply incorporate the markup from the included index.html file into your page, along with the included CSS and JS.
 
