@@ -1,4 +1,4 @@
-# Accessibility Toolbar
+# Accessibility Toolbar - CSS Grid Brand
 
 The Accessibility Toolbar is a small front-end tool to help make a website more accessible for users. It includes:
 * Grayscale
@@ -10,14 +10,13 @@ The Accessibility Toolbar is a small front-end tool to help make a website more 
 ## Installation
 
 ### Requirements
-* Bootstrap 3+
-* jQuery (also required for Bootstrap)
+* CSS Grid isage
 * Font Awesome
 
-Note: The Accessibility Toolbar as presented here requires Bootstrap for layout. The layout can easily be changed to a front-end framework of your choice or to CSS Grid. jQuery is used minimally and could also be removed entirely if desired. Font Awesome is used for iconography, but can also be removed if desired.
+Note: The Accessibility Toolbar as presented here uses CSS Grid for layout. The CSS Grid styles are a custom 12-column grid system that uses the Bootstrap naming conventions for columns, but does NOT use Bootstrap, it is pure CSS3. The Accessibility Toolbar, as presented here requires Font Awesome for iconography, but can be removed if desired.
 
 ## Usage
-If using Bootstrap 3+, simply incorporate the markup from the included index.html file into your page, along with the included CSS and JS.
+If using CSS Grid, simply incorporate the markup from the included index.html file into your page, along with the included CSS and JS. Your page may need to be reconfigured to use the CSS Grid system included here, or the Accessibility Toolbar can be reworked into your existing CSS Grid system.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
