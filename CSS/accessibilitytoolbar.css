@@ -255,6 +255,12 @@
 .accessibilityTools h3 {
   font-size: 1.3rem;
 }
+.accessibilityTools .accessibilityLabel {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
 .accessibilityTools .switch {
   display: inline-block;
   height: 34px;
